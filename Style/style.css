@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: helvetica, arial;
+    font-size: 20px;
+    color: #333;
+}
+header {
+    height: 5em;
+    background-color: #2d359e;
+    padding: 10px 0;
+}
+footer {
+    height: 2em;
+    background-color: #2d359e;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+h4 {
+    font-size: 70px;
+    color: #f4f4f4;
+    text-align: center;
+}
+h3 {
+    display: inline-block;
+    font-size: 70px;
+}
+button {
+    border: 0;
+    padding: 0.5em 1em;
+    font-family: "Open Sans Condensed", sans-serif;
+    background-color: #2d359e;
+    color: white;
+    font-size: 1.2em;
+    float: right;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+}
+button:hover,
+button:focus {
+    background-color: #171b4b;
+}
+
+.info {
+    position: absolute;
+    margin-top: 1.5em;
+    top: 1.5em;
+    left: 20px;
+    right: 20px;
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 0.5em;
+}
+.top {
+    margin: 0 auto;
+    margin-top: 0.5em;
+    width: 960px;
+
+}
+.Align {
+    float: right;
+    margin-top: 17px;
+}
+.row {
+    position: relative;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border: solid;
+    display: inline-block;
+    border-width: 1px;
+    cursor: pointer;
+
+}
+.row:hover {
+    box-shadow: #333 0px 0px 10px;
+    color: #000000;
+}
+
+#content {
+    
+    padding: 30px 0;
+}
+#Logo {
+    height: 90px;
+    width: 90px;
+    float: left;
+}
+#checkbox {
+    margin-top: 0.5em;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
